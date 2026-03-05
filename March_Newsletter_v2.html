@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .logo {
+      max-width: 500px;
+      height: auto;
+      margin: 0 auto 40px;
+      display: block;
+    }
+    h1 {
+      margin-bottom: 24px;
+      font-size: 28px;
+    }
+    h1:not(:first-child) {
+      margin-top: 60px;
+    }
+    p {
+      margin-bottom: 16px;
+    }
+    .centered {
+      text-align: center;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 30px 0;
+    }
+    .image-grid img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .text-image-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: start;
+      margin: 30px 0;
+    }
+    .text-image-grid img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px 15px;
+      }
+      .logo {
+        max-width: 300px;
+        margin-bottom: 30px;
+      }
+      h1 {
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+      h1:not(:first-child) {
+        margin-top: 40px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      .text-image-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      .image-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+      }
+      ul {
+        margin-left: 20px !important;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      [style*="display: flex"][style*="gap: 20px"] {
+        flex-direction: column !important;
+      }
+      [style*="width: 150px"] {
+        width: 120px !important;
+        height: 120px !important;
+      }
+      [style*="display: grid"][style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+      }
+      [style*="border: 2px solid"] {
+        padding: 20px !important;
+        margin: 30px 0 15px 0 !important;
+      }
+    }
+    @media (max-width: 480px) {
+      .container {
+        padding: 15px 12px;
+      }
+      .logo {
+        max-width: 250px;
+      }
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+      .centered {
+        font-size: 14px;
+      }
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    .video-section {
+      margin-top: 40px;
+      padding-top: 40px;
+      border-top: 1px solid #eee;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 8px;
+      background: #f5f5f5;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="AHEAD With Horses" class="logo">
+    <p>With your donation, students at AHEAD With Horses can experience the life-changing benefits of therapeutic riding. Children come to our program with a wide range of challenges, including autism, Down syndrome, cerebral palsy, developmental delays, and mobility limitations.</p>
+
+    <p>Through their connection with our horses, these students gain confidence, improve physical strength and balance, and develop emotional trust and independence.</p>
+
+    <p>Therapeutic riding is more than simply sitting on a horse. Each ride activates muscles used for posture, coordination, and balance, while the steady rhythm of the horse's movement helps regulate the nervous system and improve focus.</p>
+
+    <p>Your generosity helps make this possible — supporting the care of our horses, the training of volunteers, and the individualized attention each student receives.</p>
+
+    <div style="text-align: center; margin: 30px 0 -30px 0;">
+      <a href="https://www.paypal.com/US/fundraiser/charity/64504" target="_blank">
+        <img src="button.jfif" alt="Donate" style="max-width: 200px; cursor: pointer;">
+      </a>
+    </div>
+
+    <p class="centered">Because of you, these students Ride. Smile. Grow.</p>
+
+    <h1>Mark</h1>
+    <div class="text-image-grid">
+      <div>
+        <p>Mark has been part of the program longer than many of our students have been alive. Mark is 28 years old now, and he first started riding with us when he was just 12.</p>
+
+        <p>Mark has limited verbal communication, but when he's around the horses, something special happens. His excitement is unmistakable. One of the few phrases he consistently uses is "Walk please," which he proudly says to encourage his horse forward. The horses understand him, and he understands them.</p>
+
+        <p>The routine of coming to the barn, seeing the horses, and riding is the highlight of Mark's week. It brings him joy, comfort, and a sense of stability that is hard to find elsewhere.</p>
+
+        <p>Even though his account is now behind, we simply cannot tell him he can't come. This program is one of the most meaningful parts of his life. Especially after the loss of his brother, the barn has remained one of the few places where Mark still feels grounded and safe.</p>
+      </div>
+      <img src="mark.jfif" alt="Mark">
+    </div>
+
+    <div class="video-section">
+      <h2>Mark's Video</h2>
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1D97lU0XkjZSCyx-TM-r4QwQonVNHWKGC/preview" allow="autoplay" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <h1>Emilia</h1>
+    <p>Emilia lives with multiple disabilities, including a chromosomal deletion and autism spectrum disorder. She also has hypotonia, which causes low muscle tone and what doctors sometimes describe as "floppy" muscles.</p>
+
+    <p>When Emilia first joined the program, she didn't want to touch the horses at all. They were unfamiliar and overwhelming.</p>
+
+    <p>Today, that same little girl confidently approaches them with hugs and affection. She loves to show off for the staff, blowing kisses and proudly interacting with the horses.</p>
+
+    <p>Emilia has blossomed into a joyful, confident presence at the barn. She runs with confidence, hands swinging freely at her sides, full of personality and pride.</p>
+
+    <div class="image-grid">
+      <img src="emila1.jfif" alt="Emilia" style="width: 100%; height: 300px; object-fit: cover;">
+      <img src="emily2.jfif" alt="Emilia" style="width: 100%; height: 300px; object-fit: cover;">
+    </div>
+
+    <div class="video-section">
+      <h2>Emilia's Video</h2>
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1Hyt1jABQFqcPdzBySyvUP5NTQCydAnpe/preview" allow="autoplay" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <h1>Danielle</h1>
+    <p>Danielle lives with a rare and severe seizure disorder called Dravet syndrome.</p>
+
+    <p>Because of her medical condition, she often has to miss lessons. At many therapeutic riding programs, a student who misses this many sessions would be removed from the program.</p>
+
+    <p>But we would never do that to Danielle.</p>
+
+    <p>When she is able to come to the barn, she loves it deeply. And each time she rides, we see her strength continue to grow.</p>
+
+    <p>Right now, however, getting Danielle onto the horse is incredibly difficult. Without a proper mounting ramp, it currently takes four people working together just to safely lift her onto the horse and help her sit upright. A mounting platform would make this process safer, more dignified, and far easier for both Danielle and the volunteers helping her.</p>
+
+    <div class="image-grid">
+      <img src="image1.jfif" alt="Danielle at the barn">
+      <img src="image2.jfif" alt="Danielle with horse">
+    </div>
+
+    <h1>Connor</h1>
+    <p>Connor loves the horses with his whole heart.</p>
+
+    <p>Over time, he has grown tremendously in confidence. Today, he proudly leads his own horse from the barn to the riding ring before each lesson — a responsibility that once would have seemed impossible.</p>
+
+    <p>He has also become a favorite among the volunteers, who admire his determination and the way he connects with the animals.</p>
+
+    <p>Recently, Connor has been facing serious health challenges and has spent time in and out of the hospital. Even so, whenever he is able, he returns to the barn.</p>
+
+    <p>The horses are still waiting for him, and this is where he belongs.</p>
+
+    <div class="image-grid">
+      <img src="conor1.jfif" alt="Connor" style="width: 100%; height: 300px; object-fit: cover;">
+      <img src="conor2.jfif" alt="Connor" style="width: 100%; height: 300px; object-fit: cover;">
+    </div>
+
+    <div class="video-section">
+      <h2>Connor's Video</h2>
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1A69CyBG5zcUlyTLhrTanHwWuQ4qDS7R6/preview" allow="autoplay" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <h1>Ivana</h1>
+    <p>Ivana is a student who has Down Syndrome and who has been part of our program for an incredible 25 years.</p>
+
+    <p>She is also autistic and non-verbal. But the moment she arrives at the barn, her excitement says everything. Her mother often has to hold her back because she's so eager to get to the horses and start her ride.</p>
+
+    <p>Riding helps Ivana improve her fine motor skills and attention span, but the emotional impact is just as important. The barn is one of the places where she feels happiest and most engaged.</p>
+
+    <p>For Ivana, being around the horses isn't just therapy — it's pure joy.</p>
+
+    <div class="image-grid">
+      <img src="image4.jfif" alt="Ivana at the barn">
+      <img src="image5.jfif" alt="Ivana with horse">
+    </div>
+
+    <h1>Elliot</h1>
+    <p>Elliot has mild cerebral palsy and is also on the autism spectrum. For him, riding provides both emotional and physical benefits that are difficult to replicate anywhere else.</p>
+
+    <p>Elliot is what therapists call a "sensory seeker." The rhythmic movement of the horse helps satisfy his need for sensory input in a way that is calming and regulating for his body.</p>
+
+    <p>At the same time, riding helps strengthen the physical challenges associated with cerebral palsy. Working with the horse improves Elliot's balance, muscle coordination, and posture. What looks like a joyful ride to an outsider is powerful therapy happening in motion.</p>
+
+    <div class="image-grid">
+      <img src="elliot1.jfif" alt="Elliot" style="width: 100%; height: 300px; object-fit: cover;">
+      <img src="elliot2.jfif" alt="Elliot" style="width: 100%; height: 300px; object-fit: cover;">
+    </div>
+
+    <div class="video-section">
+      <h2>Elliot's Video</h2>
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/13tlOGHuadyCy2IDFQ678FVJVfrqwX3zP/preview" allow="autoplay" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <img src="logo.png" alt="AHEAD With Horses" class="logo" style="margin-top: 60px;">
+
+    <h1>Our Vision for the Future</h1>
+    <p>Because of people like you, the barn remains a place of hope, strength, and breakthroughs.</p>
+
+    <p>As we look toward the future of AHEAD With Horses, we are constantly seeking ways to enhance the safety and dignity of our riders.</p>
+
+    <div style="border: 2px solid #ccc; padding: 30px; border-radius: 12px; margin: 40px 0;">
+      <h2 style="margin-top: 0; margin-bottom: 30px;">Upcoming Program Goals</h2>
+      <p><strong>Safety & Infrastructure: Annual Liability Insurance ($18,000)</strong><br>The foundational support that allows us to keep our gates open and our students protected every single day.</p>
+
+      <p><strong>Accessibility: Mounting Ramp ($3,000)</strong><br>A vital tool to help students like Danielle transition from the ground to the saddle with ease and dignity.</p>
+
+      <p><strong>The Riding Environment: Ring Repair ($5,000)</strong><br>Maintaining the specialized footing in our arena to ensure a stable and safe surface for horses and students.</p>
+
+      <p style="margin-bottom: 0;"><strong>Equipment ($3,000)</strong><br>Investing in two new therapeutic surcingles (the vaulting saddles we use). This will give the opportunity to use more horses on lesson days.</p>
+    </div>
+
+    <div style="margin: 100px 0 20px 0;">
+      <h1>Meet Ginger</h1>
+      <div class="text-image-grid">
+        <div>
+          <p>Ginger is as sweet as they come.</p>
+
+          <p>She is calm, patient, and steady — a perfect partner for riders of all abilities.</p>
+
+          <ul style="margin-left: 20px; margin-bottom: 16px;">
+            <li>Any volunteer can groom or lead her</li>
+            <li>Any student can ride her</li>
+            <li>She rarely spooks and remains steady for even the most nervous riders</li>
+          </ul>
+
+          <p>For many children, Ginger becomes their first trusted connection with a horse.</p>
+
+          <p>That moment — when a child who may struggle with communication, balance, or confidence reaches out and touches a horse for the first time — is often the beginning of something extraordinary.</p>
+
+          <p>Our horses make all of this possible. Without them, the program simply would not exist.</p>
+
+          <p>Each horse in the program costs approximately $10,000 per year to care for.</p>
+
+          <p>This covers feed, farrier care, veterinary care, bedding, and the supplies needed to keep them healthy, comfortable, and ready to work with our students.</p>
+
+          <p>Because of these remarkable horses, children who face daily physical and developmental challenges are able to experience strength, independence, and joy in ways that traditional therapy often cannot provide.</p>
+
+          <p>And for many of them, it all begins with a horse like Ginger.</p>
+        </div>
+        <img src="image6.jfif" alt="Ginger the horse">
+      </div>
+
+    </div>
+
+    <div style="text-align: center; margin: -30px 0 0 0;">
+      <img src="image7.jfif" alt="Ginger" style="max-width: 600px;">
+    </div>
+
+    <h1 style="text-align: center;">Continuing the Work</h1>
+    <p>Donations from people like you ensure that students will experience the life-changing benefits of therapeutic riding.</p>
+
+    <p>Children who once struggled with balance, communication, confidence, or independence are able to grow stronger through their connection with our horses.</p>
+
+    <p>Every week at the barn we see moments that remind us why this program matters so much — a rider sitting taller on the horse, a child speaking a new word, a student who once felt uncertain now proudly leading their horse into the ring.</p>
+
+    <p>These moments happen because people like you believe in this work.</p>
+
+    <p>As we continue serving these students, there are a few practical needs that help keep the program strong and ensure these experiences remain available to the children who depend on them.</p>
+
+    <p>Thank you for believing in these children, in our volunteers, and in the extraordinary horses that help make this work possible.</p>
+
+    <p class="centered">Because of you, these students Ride. Smile. Grow.</p>
+
+    <div style="text-align: center; margin: 30px 0;">
+      <a href="https://www.paypal.com/US/fundraiser/charity/64504" target="_blank">
+        <img src="button.jfif" alt="Donate" style="max-width: 200px; cursor: pointer;">
+      </a>
+    </div>
+  </div>
+</body>
+</html>
